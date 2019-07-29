@@ -11,15 +11,15 @@ import lombok.Setter;
 @Table
 @Setter
 @Getter
-public class Users {
+public class User {
 	@PrimaryKey
 	private int id;
 	private String name;
 	
-	public Users() {
+	public User() {
 		
 	}
-	public Users(int id, String name) {
+	public User(int id, String name) {
 		super();
 		this.id = id;
 		this.name = name;
